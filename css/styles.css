@@ -1,13 +1,18 @@
 body {
     margin: 0;
     font-family: 'Nunito Sans', Arial sans-serif;
+    font-family: 'Yeseva One', Times New Roman, cursive;
+}
+
+body * {
+    box-sizing: border-box;
 }
 
 .header {
     background-color: #131313;
 }
 
-.header-size {
+.block-size {
     max-width: 1256px;
     margin: 0 auto;
 }
@@ -57,33 +62,30 @@ body {
     border-radius: 2px;
     outline: 0;
     border: 0;
-    padding: 13px 33px;
     text-align: center;
     text-transform: uppercase;
     font-style: italic;
     color: white;
+    width: 207px;
+    height: 51px;
 }
 
-.button-new {
-    background: none;
-    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
-    border-radius: 2px;
-    outline: 0;
-    border: 0;
-    padding: 13px 33px;
-    text-align: center;
-    text-transform: uppercase;
-    font-style: italic;
-    color: white;
-    border: 1px solid #FFFFFF;
-    box-sizing: border-box;
-}
-
-main {
+.block {
     background-image: url(../images/background_image.jpg);
     background-size: cover;
     height: 707px;
-    filter: brightness(0.4);
+    position: relative;
+}
+
+.block-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    padding-top: 194px;
 }
 
 .title {
@@ -95,17 +97,23 @@ main {
     line-height: 53px;
     text-transform: uppercase;
     color: #FFFFFF;
+    width: 676px;
+}
+
+.rostov {
+    color: #E3B873;
 }
 
 .paragraf {
     font-size: 22px;
     line-height: 36px;
     color: #FFFFFF;
+    width: 504px;
 }
 
 
-
-/* font-family: 'Nunito Sans',
-sans-serif;
-font-family: 'Yeseva One',
-cursive; */
+.button-new {
+    background: none;
+    border: 1px solid #FFFFFF;
+    /* box-sizing: border-box; */
+}
