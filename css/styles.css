@@ -124,10 +124,15 @@ body * {
 
 .page-2__aside {
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-between;
 }
 
-.aside-block {}
+.aside-block {
+    width: 442px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 .aside-subtitle {
     margin: 0;
@@ -139,6 +144,7 @@ body * {
     letter-spacing: -0.07em;
     text-transform: uppercase;
     color: #E3B873;
+    padding-top: 176px;
 }
 
 .aside-parahraf {
@@ -155,6 +161,20 @@ body * {
     justify-content: space-between;
     align-content: space-around;
     flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.aside-flex__1 {
+    flex: 0 1 50%;
+}
+.aside-flex__2 {
+    flex: 0 1 50%;
+}
+.aside-flex__3 {
+    flex: 0 1 50%;
+}
+.aside-flex__4 {
+    flex: 0 1 50%;
 }
 
 .aside-flex__subtitle {
@@ -174,4 +194,31 @@ body * {
     font-size: 13px;
     line-height: 21px;
     color: white;
+}
+
+.page-2__img {
+    margin: 0;
+    width: 679px;
+    height: 482px;
+    padding-left: 50px;
+}
+
+.section-li {
+    text-decoration: none;
+    margin-right: 60.5px;
+
+}
+.section-navigation {
+    padding-top: 107px;
+    margin-bottom: 52px;
+    margin-top: 0;
+    margin-left: 9px;
+}
+
+.header-navigation__item a:hover {
+    text-decoration: underline;
+}
+
+.svg-1 {
+    margin-top: 81px;
 }
