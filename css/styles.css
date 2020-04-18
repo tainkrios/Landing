@@ -70,6 +70,10 @@ body * {
     height: 51px;
 }
 
+.input {
+    
+}
+
 .button:hover {
     background: none;
     border: 1px solid #FFFFFF;
@@ -167,12 +171,15 @@ body * {
 .aside-flex__1 {
     flex: 0 1 50%;
 }
+
 .aside-flex__2 {
     flex: 0 1 50%;
 }
+
 .aside-flex__3 {
     flex: 0 1 50%;
 }
+
 .aside-flex__4 {
     flex: 0 1 50%;
 }
@@ -208,6 +215,7 @@ body * {
     margin-right: 60.5px;
 
 }
+
 .section-navigation {
     padding-top: 107px;
     margin-bottom: 52px;
@@ -221,4 +229,41 @@ body * {
 
 .svg-1 {
     margin-top: 81px;
+}
+
+.page-3__container {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-3__paragraf {
+    max-width: 681px;
+
+}
+
+.page-3__imgshadow {
+    background: rgba(0, 0, 0, 0.4);
+    position: relative;
+    /* width: 100%; */
+    /* top: 0; */
+}
+
+
+.page-3__shadow {
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.page-3__img {
+    max-width: 818px;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15);
+    
+    /* filter: brightness(70%);     */
 }
