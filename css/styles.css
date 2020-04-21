@@ -234,7 +234,7 @@ body * {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: -276px;
+    margin-top: -276px;
 }
 
 .page-3__title {
@@ -282,11 +282,10 @@ body * {
 
 .page-3__form {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    /* max-height: 51px; */
     max-width: 769px;
+    justify-content: space-between;
     margin-top: 91px;
+    align-items: stretch;
 }
 
 .input-flex {
@@ -302,7 +301,112 @@ body * {
 }
 
 .checkbox-agree {
+    margin-top: 33px;
+}
+
+/* .checkbox:checked,
+.checkbox:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+.checkbox:checked+label,
+.checkbox:not(:checked)+label {
+    display: inline-block;
+    position: relative;
+    padding-left: 28px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+
+.checkbox:checked+label:before,
+.checkbox:not(:checked)+label:before {
+    content: "";
+    position: absolute;
+    /* left: 0px; */
+/* top: 0px; */
+/* width: 18px;
+    height: 18px;
+    border: 1px solid #dddddd;
+    background-color: #E3B873;
+    border-radius: 2px;
+}
+
+.checklabel {
+} */
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]+label:before {
+    content: "\2713";
+    color: transparent;
+    display: inline-block;
+    border: none;
+    outline: none;
+    background-color: #E3B873;
+    border-radius: 1px;
+    font-size: 14px;
+    line-height: 163.68%;
+    margin: -5px 5px 0 0;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    vertical-align: middle;
+    transition: color ease .3s;
+}
+
+input[type=checkbox]:checked+label:before {
+    color: rgb(255, 255, 255);
+}
+
+.page-4__title {
+    text-align: center;
+    margin-top: 148px;
+}
+
+.page-4__svgcontainer {
+    text-align: center;
+    margin: 13px 0 31px 0;
+}
+
+/* 
+.page-4__img {
+    z-index: -1;
+} */
+
+.img-1 {
+    background: url(../images/redecoratingimg.jpg);
+}
+
+.img-2 {
+    background: url(../images/overhaulimg.jpg);
+}
+
+.img-3 {
+    background: url(../images/designerrepairimg.jpg);
+}
+
+.page-4__img {
+    width: 392px;
+    height: 421px;
+}
+
+.types-block {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.page-4__paragraf {
+    margin-top: -127px;
+}
+
+.block-2__text {
+    width: 330px;
+    height: 286px;
+    background: rgb(143, 143, 143);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
 }
