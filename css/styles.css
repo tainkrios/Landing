@@ -400,13 +400,45 @@ input[type=checkbox]:checked+label:before {
     justify-content: space-around;
 }
 
-.page-4__paragraf {
-    margin-top: -127px;
-}
-
-.block-2__text {
+.page-4__text {
+    margin-left: 31px;
     width: 330px;
     height: 286px;
-    background: rgb(143, 143, 143);
+    background: rgb(255, 255, 255);
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+
+.page-4__paragraf {
+    margin-top: -127px;
+    font-family: Yeseva One;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+}
+
+
+.page-4__list {
+    font-family: Nunito Sans;
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+}
+
+.page-4__paragraf,
+.page-4__list {
+    margin-left: 34px;
+}
+
+.no-button {
+    background: #E3B873;
+    /* background-size: 228px 54px; */
+    width: 228px;
+    height: 54px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
