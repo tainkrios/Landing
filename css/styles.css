@@ -50,6 +50,7 @@ body * {
 
 .header-navigation__item a:hover {
     color: #E3B873;
+    cursor: pointer;
 }
 
 .phone {
@@ -74,8 +75,21 @@ body * {
     /* background: none; */
     /* border: 1px solid #FFFFFF; */
     /* box-shadow: none; */
+    cursor: pointer;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
 
+}
+
+.button-page__1 {
+    background: none;
+    border: 1px solid #FFFFFF;
+    box-shadow: none;
+}
+
+.button-page__1:hover {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
 }
 
 .input {
@@ -168,10 +182,17 @@ body * {
 
 .aside-flex {
     display: flex;
+    /* justify-content: space-between; */
+    /* align-content: space-around; */
+    flex-wrap: wrap;
+    /* flex-grow: 1; */
+}
+
+.aside-page2 {
+    display: flex;
     justify-content: space-between;
     align-content: space-around;
     flex-wrap: wrap;
-    flex-grow: 1;
 }
 
 .aside-flex__1 {
@@ -202,6 +223,20 @@ body * {
     color: white;
 }
 
+.slider {
+    width: 206px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.circle {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: white;
+}
+
 .page-2__img {
     margin: 0;
     width: 679px;
@@ -222,7 +257,7 @@ body * {
     margin-left: 9px;
 }
 
-.header-navigation__item a:hover {
+.section-navigation a:hover {
     text-decoration: underline;
 }
 
@@ -354,6 +389,7 @@ input[type=checkbox]:checked+label:before {
 .types-block {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -361,7 +397,6 @@ input[type=checkbox]:checked+label:before {
     margin-left: 31px;
     margin-top: -127px;
     width: 330px;
-    height: 286px;
     background: rgb(255, 255, 255);
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
 }
