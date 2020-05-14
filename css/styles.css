@@ -59,9 +59,7 @@ body * {
 
 .button {
   background: #E3B873;
-  /* box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2); */
   border-radius: 2px;
-  /* outline: 0; */
   border: 0;
   text-align: center;
   text-transform: uppercase;
@@ -72,9 +70,6 @@ body * {
 }
 
 .button:hover {
-  /* background: none; */
-  /* border: 1px solid #FFFFFF; */
-  /* box-shadow: none; */
   cursor: pointer;
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
 
@@ -453,16 +448,22 @@ input[type=checkbox]:checked+label:before {
 .numbers_row {
   margin-top: 102px;
   display: flex;
+  align-content: center;
+}
+
+.numbers_row_2 {
+  display: flex;
+  align-items: baseline;
 }
 
 .circlenumbers {
   background: #E3B873;
   border: 8px solid #FFFFFF;
+  border-radius: 50%;
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
   width: 41px;
   height: 41px;
   /* line-height: 41px; */
-  border-radius: 50%;
   color: #FFFFFF;
   font-size: 18px;
   line-height: 25px;
@@ -473,6 +474,7 @@ input[type=checkbox]:checked+label:before {
   margin-left: 17px;
   font-size: 13px;
   line-height: 27px;
+  align-self: baseline;
 }
 
 .form-2 {
@@ -487,8 +489,9 @@ input[type=checkbox]:checked+label:before {
   height: 506px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-around;
+  padding: 0px 50px;
 }
 
 .form-2_title {
@@ -523,4 +526,43 @@ input[type=checkbox]:checked+label:before {
 .form-2_check {
   display: flex;
   justify-content: left;
+}
+
+.form-2_button {
+  align-self: flex-end;
+}
+
+.pig_radius {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #E3B873;
+  box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
+}
+
+.pig-group {
+  position: relative;
+  top: 17px;
+  left: 17px;
+}
+
+.pig {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 160px;
+}
+
+.paragraf_pig {
+  margin-left: 25px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #E3B873;
+  text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+
+.background_2 {
+  background-image: url(./images\background_image_2.jpg);
+  background-size: cover;
+  height: 864px;
+  /* position: relative; */
 }
