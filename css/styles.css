@@ -520,8 +520,13 @@ input[type=checkbox]:checked+label:before {
 }
 
 .checklabel {
-  color: white;
+  color: #181818;
   font-size: 14px;
+}
+
+.checklabel_new {
+  font-size: 14px;
+  color: white;
 }
 
 .form-2_check {
@@ -618,9 +623,82 @@ input[type=checkbox]:checked+label:before {
 }
 
 .icon_position {
-  margin-top: 32px;
+  margin-top: 78px;
 }
 
 .clients_info_size {
   margin: 24px 32px 0 20px;
+}
+
+.page-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/image7.2.jpg);
+  background-size: cover;
+  position: relative;
+  margin-top: 364px;
+  height: 954px;
+}
+
+.page-6__form-3 {
+  width: 883px;
+  height: 445px;
+  background-color: #000000;
+  margin-top: -222px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.name-phone {
+  display: flex;
+  justify-content: space-around;
+  width: 520px;
+}
+
+.zindex {
+  position: relative;
+  z-index: 1;
+}
+
+.form-3_title {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.form-3_input {
+  width: 231px;
+}
+
+.page-6_title {
+  text-align: center;
+  color: #E3B873;
+  margin-top: 53px;
+}
+
+.icon_div {
+  display: flex;
+  justify-content: center;
+}
+.icon_img {
+  margin: 25px 15px 0 0;
+
+}
+
+.map_img {
+  margin-top: 43px;
+}
+
+.cover_page-6 {
+  background-color: rgb(0, 0, 0, .7);
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }
