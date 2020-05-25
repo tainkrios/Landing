@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  font-family: 'Nunito Sans', 'Arial', sans-serif;
   font-family: 'Yeseva One', 'Times New Roman', cursive;
 }
 
@@ -296,6 +295,7 @@ body * {
 @media (max-width: 1300px) {
   .aside-page2 {
     order: 1;
+    margin: 36px 0;
   }
 }
 
@@ -424,6 +424,7 @@ body * {
   font-size: 20px;
   line-height: 28px;
   color: #FFFFFF;
+  text-align: center;
 }
 
 @media (max-width: 1300px) {
@@ -433,12 +434,16 @@ body * {
 }
 
 .page-3__svgcontainer {
-  margin-bottom: 31px;
+  display: flex;
+  margin: 12px 0 31px 0;
+}
+
+.horizon-new {
+  margin: 0 10px;
 }
 
 .page-3__paragraf {
   max-width: 681px;
-
 }
 
 .page-3__imgshadow {
@@ -488,7 +493,12 @@ body * {
 .input-flex {
   display: flex;
   flex-direction: column;
-  /* margin-right: 50px; */
+}
+
+@media(max-width: 1300px) {
+  .input-flex {
+    width: 100%;
+  }
 }
 
 .form-1 {
@@ -660,6 +670,8 @@ input[type=checkbox]:checked+label:before {
 }
 
 .block-form {
+  background: url(../images/image\ 6.1.jpg) no-repeat;
+  background-position: -54px;
   display: flex;
   justify-content: space-between;
   margin-top: 230px;
@@ -691,12 +703,12 @@ input[type=checkbox]:checked+label:before {
   border: 8px solid #FFFFFF;
   border-radius: 50%;
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
-  width: 41px;
-  height: 41px;
+  width: 50px;
+  height: 50px;
   /* line-height: 41px; */
   color: #FFFFFF;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 34px;
   text-align: center;
   flex-shrink: 0;
 }
@@ -715,7 +727,7 @@ input[type=checkbox]:checked+label:before {
 }
 
 .page-4__form-2 {
-  background-color: black;
+  background-color: #131313;
   width: 509px;
   height: 506px;
   display: flex;
@@ -743,10 +755,16 @@ input[type=checkbox]:checked+label:before {
 }
 
 .form-2_input {
-  background: black;
+  background: #131313;
   color: #FFFFFF;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   width: 408px;
+}
+
+@media (max-width: 1300px) {
+  .form-2_input {
+    width: 100%;
+  }
 }
 
 .checklabel {
@@ -883,10 +901,31 @@ input[type=checkbox]:checked+label:before {
   height: 954px;
 }
 
+@media (max-width: 1300px) {
+  .page-6 {
+    width: 100%;
+    background: #131313;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+.page-6_direction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1300px) {
+  .page-6_block-size {
+    width: 100%;
+  }
+}
+
 .page-6__form-3 {
   width: 883px;
   height: 445px;
-  background-color: #000000;
+  background-color: #131313;
   margin-top: -222px;
   display: flex;
   flex-direction: column;
@@ -897,6 +936,8 @@ input[type=checkbox]:checked+label:before {
 @media (max-width: 1300px) {
   .page-6__form-3 {
     width: 100%;
+    height: auto;
+    margin: 0 auto;
   }
 }
 
@@ -904,6 +945,14 @@ input[type=checkbox]:checked+label:before {
   display: flex;
   justify-content: space-around;
   width: 520px;
+}
+
+@media (max-width: 1300px) {
+  .name-phone {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
 .zindex {
@@ -918,8 +967,45 @@ input[type=checkbox]:checked+label:before {
   color: #FFFFFF;
 }
 
+@media (max-width: 1300px) {
+  .form-3_title {
+    margin-top: 52px;
+  }
+}
+
 .form-3_input {
   width: 231px;
+}
+
+@media (max-width: 1300px) {
+  .form-3_input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .form-3_flex-1 {
+    margin: 52px 0 0 0;
+  }
+}
+
+@media (max-width: 1300px) {
+  .form-3_flex {
+    margin: 63px 0;
+  }
+}
+
+@media (max-width: 1300px) {
+  .form-3_check {
+    width: 100%;
+    margin: 21px 0 57px 0;
+  }
+}
+
+@media (max-width: 1300px) {
+  .form-3_button {
+    width: 100%;
+  }
 }
 
 .page-6_title {
@@ -931,6 +1017,13 @@ input[type=checkbox]:checked+label:before {
 .icon_div {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 1300px) {
+  .end-mobile {
+    order: 1;
+    margin-bottom: 49px;
+  }
 }
 
 .icon_img {
@@ -951,6 +1044,12 @@ input[type=checkbox]:checked+label:before {
   top: 0;
   right: 0;
   bottom: 0;
+}
+
+@media (max-width: 1300px) {
+  .cover_page-6 {
+    display: none;
+  }
 }
 
 @media (max-width: 1300px) {
