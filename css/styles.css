@@ -538,6 +538,10 @@ body * {
   }
 }
 
+.form-1_checklabel {
+  font-size: 14px;
+}
+
 @media(max-width: 1300px) {
   .form-1_checklabel {
     color: #FFFFFF;
@@ -883,7 +887,35 @@ input[type=checkbox]:checked+label:before {
 }
 
 .icon_position {
+  display: flex;
   margin-top: 78px;
+}
+
+.icon-text {
+  font-family: Yeseva One;
+  font-size: 17px;
+  line-height: 24px;
+  color: #FFFFFF;
+  /* width: 159px;
+  height: 54px;
+  background-color: E3B873; */
+}
+
+.icon_flex_1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 1px;
+  width: 159px;
+  height: 54px;
+  background-color: #E3B873;
+}
+
+.icon_flex_2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 159px;
+  height: 54px;
+  background-color: #E3B873;
 }
 
 .clients_info_size {
