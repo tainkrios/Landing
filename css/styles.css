@@ -16,6 +16,10 @@ body * {
   margin: 0px auto;
 }
 
+.arrow {
+  cursor: pointer;
+}
+
 @media (max-width: 1300px) {
   .block-size {
     max-width: 339px;
@@ -69,6 +73,10 @@ body * {
 .header-navigation__item a:hover {
   color: #E3B873;
   cursor: pointer;
+}
+
+a.isactive {
+  color: #E3B873;
 }
 
 .phone {
@@ -359,7 +367,20 @@ body * {
   width: 9px;
   height: 9px;
   border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.circle:hover {
+  cursor: pointer;
+  /* cursor: pointer; */
   background: white;
+}
+
+.enabled{
+  /* background: white; */
+  background: #FFFFFF;
+  /* color: #E3B873; */
+  /* cursor: pointer; */
 }
 
 .page-2__img {
