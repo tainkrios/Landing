@@ -10,21 +10,21 @@ const circle = document.querySelectorAll('.circle');
 let startIndex = 0;
 
 const slide = [{
-    pic: '/images/image 0.jpg',
+    pic: '/images/image_0.jpg',
     city: 'Rostov-on-Don LCD admiral',
     area: '81 m2',
     time: '3.5 months',
     cost: 'Upon request',
   },
   {
-    pic: '/images/image 1.jpg',
+    pic: '/images/image_1.jpg',
     city: 'Sochi Thieves',
     area: '105 m2',
     time: '4 months',
     cost: 'Upon request',
   },
   {
-    pic: '/images/image 2.jpg',
+    pic: '/images/image_2.jpg',
     city: 'Rostov-on-Don Patriotic',
     area: '93 m2',
     time: '3 months',

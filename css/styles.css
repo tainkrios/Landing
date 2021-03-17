@@ -363,6 +363,16 @@ a.isactive {
   }
 }
 
+.mobileArrow {
+  display: none;
+}
+
+@media (max-width: 1300px) {
+  .mobileArrow {
+    display: inline-block;
+  }
+}
+
 .circle {
   width: 9px;
   height: 9px;
@@ -624,18 +634,6 @@ input[type=checkbox]:checked+label:before {
   margin: 13px 0 31px 0;
 }
 
-/* .img-1 {
-  background: url(../images/redecoratingimg.jpg);
-}
-
-.img-2 {
-  background: url(../images/overhaulimg.jpg);
-}
-
-.img-3 {
-  background: url(../images/designerrepairimg.jpg);
-} */
-
 .img-1-1 {
   width: 100%;
   /* max-height: 421px; */
@@ -695,7 +693,7 @@ input[type=checkbox]:checked+label:before {
 }
 
 .block-form {
-  background: url(../images/image\ 6.1.jpg) no-repeat;
+  background: url(../images/image_6.1.jpg) no-repeat;
   background-position: -54px;
   display: flex;
   justify-content: space-between;
