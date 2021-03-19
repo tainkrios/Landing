@@ -370,6 +370,7 @@ a.isactive {
 @media (max-width: 1300px) {
   .mobileArrow {
     display: inline-block;
+    
   }
 }
 
